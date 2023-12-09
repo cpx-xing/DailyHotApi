@@ -31,7 +31,8 @@ const getData = (data) => {
       owner: v.owner,
       data: v.stat,
       hot: v.stat.view,
-      url: v.short_link_v2 || `https://www.bilibili.com/${v.bvid}`,
+      // url: v.short_link_v2 || `https://www.bilibili.com/${v.bvid}`,
+      url: `https://www.bilibili.com/${v.bvid}`,
       mobileUrl: `https://m.bilibili.com/video/${v.bvid}`,
     };
   });
